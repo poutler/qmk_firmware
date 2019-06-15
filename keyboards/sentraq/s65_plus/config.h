@@ -44,4 +44,14 @@
 /* Locking resynchronize hack */
 #define LOCKING_RESYNC_ENABLE
 
+/* Tap Dance setup */
+#define TAPPING_TERM 200
+
+/* Mouse settings */
+#define MOUSEKEY_INTERVAL 16
+#define MOUSEKEY_MAX_SPEED 3
+#define MOUSEKEY_TIME_TO_MAX 0
+#define MOUSEKEY_WHEEL_MAX_SPEED 2
+#define MOUSEKEY_WHEEL_TIME_TO_MAX 0
+
 #endif

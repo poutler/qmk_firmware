@@ -52,8 +52,8 @@ OPT_DEFS += -DBOOTLOADER_SIZE=4096
 # Build Options
 #   change yes to no to disable
 #
-BOOTMAGIC_ENABLE = yes      # Virtual DIP switch configuration(+1000)
-MOUSEKEY_ENABLE = no        # Mouse keys(+4700)
+BOOTMAGIC_ENABLE = full      # Virtual DIP switch configuration(+1000)
+MOUSEKEY_ENABLE = yes        # Mouse keys(+4700)
 EXTRAKEY_ENABLE = yes       # Audio control and System control(+450)
 # Do not enable SLEEP_LED_ENABLE. it uses the same timer as BACKLIGHT_ENABLE
 SLEEP_LED_ENABLE = no       # Breathing sleep LED during USB suspend
@@ -64,3 +64,5 @@ AUDIO_ENABLE = no           # Audio output on port C6
 NKRO_ENABLE = yes          # USB Nkey Rollover - if this doesn't work, see here: https://github.com/tmk/tmk_keyboard/wiki/FAQ#nkro-doesnt-work
 BACKLIGHT_ENABLE = yes     # Enable keyboard backlight functionality
 RGBLIGHT_ENABLE = yes      # Enable RGB light
+TAP_DANCE_ENABLE = yes     # enable TapDance!
+COMMAND_ENABLE = yes      # Enables changing config without rebooting
